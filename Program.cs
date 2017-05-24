@@ -5,7 +5,11 @@ namespace SpecialMission
     {   
         public static void Main(string[] args) 
         {
-            // TODO: add code
+            // Chapter 1
+            var string_1 = "Agent ";
+            var string_2 = "Smith";
+            var character = string_1 + string_2;
+            Console.WriteLine(character);
         }
     }
 }
