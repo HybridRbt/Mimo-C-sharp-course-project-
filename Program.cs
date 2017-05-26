@@ -11,5 +11,10 @@ namespace SpecialMission
             var character = string_1 + string_2;
             Console.WriteLine(character);
         }
+
+        var plansDefeated = 0;
+        plansDefeated += 5;
+        plansDefeated++;
+        Console.WriteLine("Plans defeated: " + plansDefeated;
     }
 }
