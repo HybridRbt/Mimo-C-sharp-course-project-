@@ -26,8 +26,19 @@ namespace SpecialMission
             aList.Sort();
             aList.Insert(0, 27);
             aList.Add(201);
-            var listString = String.Join(", ", aList);
+            var listString = string.Join(", ", aList);
             Console.WriteLine(listString);
+
+            var aDic = new Dictionary<string, int>()
+            {
+                {"jetpack", 1},
+                {"pager", 2},
+                {"pen gun", 5},
+                {"tape recorder", 2},
+                {"tracking device", 3}
+            };
+            var dicString = string.Join("\n", aDic);
+            Console.WriteLine(dicString);
         }
     }
 }
