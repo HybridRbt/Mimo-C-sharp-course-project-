@@ -21,13 +21,13 @@ namespace SpecialMission
             plansDefeated++;
             Console.WriteLine("Plans defeated: " + plansDefeated);
 
-            var an_array = { 10, 2, 5, 4, 9 };
-            var a_list = new List<int>(an_array);
-            a_list.Sort();
-            a_list.Insert(0, 27);
-            a_list.Add(201);
-            var list_string = String.Join(", ", a_list);
-            Console.WriteLine(a_list);
+            int[] anArray = { 10, 2, 5, 4, 9 };
+            var aList = new List<int>(anArray);
+            aList.Sort();
+            aList.Insert(0, 27);
+            aList.Add(201);
+            var listString = String.Join(", ", aList);
+            Console.WriteLine(listString);
         }
     }
 }

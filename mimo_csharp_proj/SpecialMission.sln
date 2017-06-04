@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mimo_csharp_proj", "mimo_csharp_proj\mimo_csharp_proj.csproj", "{3E079B8B-BD17-4925-9014-0B9B0BBBFC97}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecialMission", "mimo_csharp_proj\SpecialMission.csproj", "{3E079B8B-BD17-4925-9014-0B9B0BBBFC97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
