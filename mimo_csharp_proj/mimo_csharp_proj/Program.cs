@@ -39,6 +39,22 @@ namespace SpecialMission
             };
             var dicString = string.Join("\n", aDic);
             Console.WriteLine(dicString);
+
+            var missionList = new List<string>()
+            {
+                "defeat weapons dealer",
+                "investigate hijacking",
+                "uncover jewel smuggler"
+            };
+
+            foreach (var mission in missionList)
+            {
+                Console.WriteLine("Completed: " + mission);
+                missionList.Remove(mission);
+            }
+
+            missionList.Clear();
+            Console.WriteLine(missionList.Count);
         }
     }
 }
