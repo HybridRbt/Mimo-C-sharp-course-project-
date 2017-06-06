@@ -55,6 +55,13 @@ namespace SpecialMission
 
             missionList.Clear();
             Console.WriteLine(missionList.Count);
+
+            Console.WriteLine(CalculateAttempts(3, 3) + " attempts");
+
+            var aVillan = new Villans("Dr.Panda", "banboom");
+            Console.WriteLine(aVillan.Whoisit());
+        }
+
         // code for method practice
         static int CalculateAttempts(int security, int equipment)
         {
