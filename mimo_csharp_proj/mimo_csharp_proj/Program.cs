@@ -61,4 +61,23 @@ namespace SpecialMission
             return security * equipment * 3;
         }
     }
+
+    // code for class practice
+    class Villans
+    {
+        private string _name;
+        private string _weakness;
+
+        public Villans(string name, string weakness)
+        {
+            _name = name;
+            _weakness = weakness;
+        }
+
+        public string Whoisit()
+        {
+            return "This is " + _name + ", and the weakness is: " + _weakness;
+        }
+
+    }
 }
