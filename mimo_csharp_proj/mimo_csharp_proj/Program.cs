@@ -55,6 +55,10 @@ namespace SpecialMission
 
             missionList.Clear();
             Console.WriteLine(missionList.Count);
+        // code for method practice
+        static int CalculateAttempts(int security, int equipment)
+        {
+            return security * equipment * 3;
         }
     }
 }
