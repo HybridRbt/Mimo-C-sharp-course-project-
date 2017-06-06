@@ -50,7 +50,7 @@ namespace SpecialMission
             foreach (var mission in missionList)
             {
                 Console.WriteLine("Completed: " + mission);
-                missionList.Remove(mission);
+                //missionList.Remove(mission);
             }
 
             missionList.Clear();
