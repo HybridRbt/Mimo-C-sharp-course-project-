@@ -29,6 +29,15 @@ namespace SpecialMission
             var listString = string.Join(", ", aList);
             Console.WriteLine(listString);
 
+            // code for string practice
+            var report = "Boss: the spy's name is Agent Smith. He is 6 ft. tall and has brown hair.";
+            Console.WriteLine(report);
+            int index = report.IndexOf(". ") + 1;
+            report = report.Remove(index);
+            report = report.Replace("Agent Smith", "James");
+            
+            Console.WriteLine(report);
+            
             var aDic = new Dictionary<string, int>()
             {
                 {"jetpack", 1},
